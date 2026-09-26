@@ -2,9 +2,7 @@ name: Update Ranking
 
 on:
   schedule:
-    # 10分ごと
-    - cron: "*/10 * * * *"
-
+    - cron: "0 3 * * *"
   # GitHub Actions画面から手動実行できるようにする
   workflow_dispatch:
 
