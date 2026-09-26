@@ -1,0 +1,59 @@
+name: Update Ranking
+
+on:
+  schedule:
+    # 10分ごと
+    - cron: "*/10 * * * *"
+
+  # GitHub Actions画面から手動実行できるようにする
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-ranking:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # リポジトリを取得
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # psycopgをインストール
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      # Supabaseからランキング取得
+      - name: Update ranking.json
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python scripts/update_ranking.py
+
+      # ranking.jsonをGitHubへ反映
+      - name: Commit and push
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add ranking.json
+
+          if git diff --cached --quiet; then
+            echo "ランキングに変更はありません"
+          else
+            git commit -m "Update ranking"
+            git push
+          fi
