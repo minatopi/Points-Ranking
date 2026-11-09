@@ -9,7 +9,7 @@
     "rank": 2,
     "id": "47fb0cdf-70f8-4c68-a80a-6ca93cf30343",
     "username": "こうくんです！",
-    "points": 21670
+    "points": 21675
   },
   {
     "rank": 3,
@@ -31,32 +31,32 @@
   },
   {
     "rank": 6,
-    "id": "5c0aef29-53e5-4f32-ab72-6505d71f887b",
-    "username": "管理者",
-    "points": 3720
-  },
-  {
-    "rank": 7,
     "id": "dbb0cae6-4fe5-4110-9dce-98d78c735a32",
     "username": "mentaiko",
     "points": 3064
   },
   {
-    "rank": 8,
+    "rank": 7,
     "id": "21a98bca-0b48-444f-beec-2a2e0f2d068d",
     "username": "みかみ りょうた",
     "points": 1411
   },
   {
-    "rank": 9,
+    "rank": 8,
     "id": "2c1f5b82-808b-49ba-9bab-4e3032d7b333",
     "username": "abc",
     "points": 1049
   },
   {
-    "rank": 10,
+    "rank": 9,
     "id": "11e44340-51c0-4b4f-b533-2f390ce0cb8a",
     "username": "だいちゃん",
+    "points": 1048
+  },
+  {
+    "rank": 10,
+    "id": "fbe471d9-f3b8-4985-bfff-099d991d166a",
+    "username": "とろろ昆布好き",
     "points": 1048
   }
 ]
