@@ -3,13 +3,13 @@
     "rank": 1,
     "id": "9b38bee4-0019-468c-bad3-a3f56db517b3",
     "username": "aaa",
-    "points": 33245
+    "points": 30150
   },
   {
     "rank": 2,
     "id": "47fb0cdf-70f8-4c68-a80a-6ca93cf30343",
     "username": "こうくんです！",
-    "points": 22583
+    "points": 22615
   },
   {
     "rank": 3,
@@ -27,36 +27,36 @@
     "rank": 5,
     "id": "fb38a1dd-b35e-41fd-a00d-8f7d27e5f112",
     "username": "あかね(=^o^=)",
-    "points": 5567
+    "points": 5628
   },
   {
     "rank": 6,
+    "id": "63a79eec-6e1d-4ec2-97cf-75b4c69dd03b",
+    "username": "さいたまけんみん",
+    "points": 3429
+  },
+  {
+    "rank": 7,
     "id": "dbb0cae6-4fe5-4110-9dce-98d78c735a32",
     "username": "mentaiko",
     "points": 3064
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": "0b7ef3c3-ba89-4d24-b76b-3fcfdd707db0",
     "username": "けいご",
-    "points": 2488
+    "points": 2493
   },
   {
-    "rank": 8,
+    "rank": 9,
     "id": "21a98bca-0b48-444f-beec-2a2e0f2d068d",
     "username": "みかみ りょうた",
     "points": 1411
   },
   {
-    "rank": 9,
+    "rank": 10,
     "id": "a20fba85-b3af-47bd-98a5-65593e269b5c",
     "username": "ぷに",
-    "points": 1229
-  },
-  {
-    "rank": 10,
-    "id": "fbe471d9-f3b8-4985-bfff-099d991d166a",
-    "username": "とろろ昆布好き",
-    "points": 1081
+    "points": 1234
   }
 ]
